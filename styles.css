@@ -110,6 +110,15 @@ html {
     width: 100%;
 }
 
+.nav-menu a.active {
+    color: var(--text-primary);
+}
+
+.nav-menu a.active::after {
+    width: 100%;
+    background: var(--text-primary);
+}
+
 /* Hero Section */
 .hero {
     min-height: 100vh;
